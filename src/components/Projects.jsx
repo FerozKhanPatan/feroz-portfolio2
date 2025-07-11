@@ -11,7 +11,7 @@ const projects = [
     title: "E-Commerce Clone",
     description: "I developed an Amazon-style e-commerce clone. The project replicates key features of an online shopping platform, such as product listings, categories, a shopping cart, and a responsive design.",
     tech: ["HTML", "CSS", "Firebase", "JavaScript"],
-    link: "https://your-automation-tool.vercel.app",
+    link: "#",
   },
   {
     title: "Portfolio Website",
