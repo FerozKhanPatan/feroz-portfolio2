@@ -13,6 +13,7 @@ const About = () => {
         {[
           "React",
           "Tailwind CSS",
+          "Bootstrap",
           "Node.js",
           "Express",
           "MongoDB",
