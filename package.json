@@ -1,7 +1,7 @@
 {
   "name": "feroz-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,44 +9,30 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,md}\"",
-    "analyze": "source-map-explorer 'dist/assets/*.js'",
-    "security-test": "echo 'Running security simulation...' && node -e \"console.log('Security features active')\""
+    "deploy": "vercel --prod",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,md}\""
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
-    "framer-motion": "^12.23.0",
-    "lucide-react": "^0.525.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "sonner": "^2.0.7",
-    "react-intersection-observer": "^9.17.0",
-    "react-router-dom": "^7.2.0",
-    "react-type-animation": "^3.4.0",
-    "uuid": "^11.0.5"
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.477.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sonner": "^1.7.0",
+    "react-intersection-observer": "^9.10.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.30.1",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react": "^4.6.0",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9.30.1",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.3.0",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17",
-    "vite": "^7.0.3",
-    "vite-plugin-pwa": "^0.21.2",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "source-map-explorer": "^2.5.4",
-    "gh-pages": "^6.3.0"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.12",
+    "vite": "^5.3.4",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8"
   },
   "description": "Portfolio website with advanced security features, animations, and project showcase",
-  "main": "eslint.config.js",
   "keywords": [
     "portfolio",
     "react",
@@ -63,7 +49,7 @@
   "bugs": {
     "url": "https://github.com/feroz365/feroz-portfolio/issues"
   },
-  "homepage": "https://feroz365.github.io/feroz-portfolio",
+  "homepage": "https://feroz.vercel.app",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
